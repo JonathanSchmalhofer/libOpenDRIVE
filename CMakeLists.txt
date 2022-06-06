@@ -21,7 +21,7 @@ endif()
 include_directories(include)
 include_directories(Thirdparty)
 
-add_library(OpenDrive SHARED
+add_library(OpenDrive STATIC
     src/Geometries/Arc.cpp
     src/Geometries/CubicSpline.cpp
     src/Geometries/Line.cpp
